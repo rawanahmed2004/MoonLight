@@ -1,198 +1,198 @@
-.Moon1 {
-  display: grid;
-  grid-template-columns: 1fr 10fr;
-  gap: 20px;
-}
-.Moon2 h1{
-   color: white;
-  text-align: center;
-  font-size: 120px;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(241, 147, 192),
-    0 0 5px rgb(218, 95, 127);
-  margin-bottom: 0px;
-  text-transform: capitalize;
+  .Moon1 {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    gap: 20px;
+  }
+  .Moon2 h1{
+    color: white;
+    text-align: center;
+    font-size: 120px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(241, 147, 192),
+      0 0 5px rgb(218, 95, 127);
+    margin-bottom: 0px;
+    text-transform: capitalize;
 
-}
-.Moon2 P {
-  color: white;
-  margin: 0px;
-  text-align: center;
-  text-transform: capitalize;
-  margin-bottom: 110px;
-  font-size: 55px;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(241, 147, 192);
-}
-
-
-header h1 {
-  color: white;
-  text-align: center;
-  font-size: 120px;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(241, 147, 192),
-    0 0 5px rgb(218, 95, 127);
-  margin-bottom: 0px;
-  text-transform: capitalize;
-}
-header P {
-  color: white;
-  margin: 0px;
-  text-align: center;
-  text-transform: capitalize;
-  margin-bottom: 110px;
-  font-size: 55px;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(241, 147, 192);
-}
-#Moon3 {
-  font-size: 15px;
-  color: #000;
-  margin: 1px;
-  text-shadow:1px 1px 2px black;
-}
-#ph1 {
-  text-align: center;
-  font-size: 30px;
-  font-style: italic;
-  color: rgb(241, 147, 192);
-  text-transform: capitalize;
-}
-
-#ph1 img {
-  width: 600px;
-  height: 700px;
-  margin: auto;
-}
-
-main h2 {
-  font-size: 40px;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(241, 147, 192);
-  color: white;
-  text-transform: capitalize;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-main p {
-  font-size: 20px;
-  color: rgb(218, 95, 127);
-  text-shadow: 1px 1px 0px rgb(39, 19, 28);
-  text-transform: capitalize;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-span {
-  padding-left: 32px;
-  padding-bottom: 50px;
-}
-
-.article1 {
-  background-image: url('../Make-Up images/back.jpeg');
-  width: 400px;
-  background-size: cover;
-  border-color: rgb(246, 239, 239);
-  text-shadow: 2px 1px 0 black;
-  border-style: solid;
-  border-radius: 15px;
-  margin: 15px auto;
-  background-position: center;
-  background-attachment: scroll;
-}
-
-.article1 h3 {
-  text-align: left;
-  text-transform: capitalize;
-  text-decoration: underline;
-  color: rgb(241, 147, 192);
-  text-shadow: 2px 1px 0 black;
-}
-
-.article1 img {
-  padding-left: 50px;
-  border-color: rgb(246, 239, 239);
-  width: 300px;
-  height: 350px;
-}
+  }
+  .Moon2 P {
+    color: white;
+    margin: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 110px;
+    font-size: 55px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(241, 147, 192);
+  }
 
 
-.article1 p {
-  font-size: bold;
+  header h1 {
+    color: white;
+    text-align: center;
+    font-size: 120px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(241, 147, 192),
+      0 0 5px rgb(218, 95, 127);
+    margin-bottom: 0px;
+    text-transform: capitalize;
+  }
+  header P {
+    color: white;
+    margin: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 110px;
+    font-size: 55px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(241, 147, 192);
+  }
+  #Moon3 {
+    font-size: 15px;
+    color: #000;
+    margin: 1px;
+    text-shadow:1px 1px 2px black;
+  }
+  #ph1 {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(241, 147, 192);
+    text-transform: capitalize;
+  }
 
-  font-weight: 1000;
-  color: rgb(241, 147, 192);
-  text-shadow: 1px 1px 0px rgb(39, 19, 28);
-  margin-left: 25px;
-  margin-top: 30px;
-  padding-right: 3px;
-  text-align: auto;
-  text-transform: capitalize;
-  font-style: italic;
-}
+  #ph1 img {
+    width: 600px;
+    height: 700px;
+    margin: auto;
+  }
 
-.article1 h3 {
-  margin-left: 20px;
-  margin-top: 80px;
-  font-size: 35px;
-  font-style: italic;
-  font-weight: bold;
-}
-.articles {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
+  main h2 {
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(241, 147, 192);
+    color: white;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  main p {
+    font-size: 20px;
+    color: rgb(218, 95, 127);
+    text-shadow: 1px 1px 0px rgb(39, 19, 28);
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  span {
+    padding-left: 32px;
+    padding-bottom: 50px;
+  }
+
+  .article1 {
+    background-image: url('../Make-Up images/back.jpeg');
+    width: 400px;
+    background-size: cover;
+    border-color: rgb(246, 239, 239);
+    text-shadow: 2px 1px 0 black;
+    border-style: solid;
+    border-radius: 15px;
+    margin: 15px auto;
+    background-position: center;
+    background-attachment: scroll;
+  }
+
+  .article1 h3 {
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: rgb(241, 147, 192);
+    text-shadow: 2px 1px 0 black;
+  }
+
+  .article1 img {
+    padding-left: 50px;
+    border-color: rgb(246, 239, 239);
+    width: 300px;
+    height: 350px;
+  }
 
 
-.contact {
-  color: white;
-  font-size: 20px;
-  display: inline-block;
-  background-color: rgb(241, 147, 192);
-  border-bottom: 4px solid rgb(218, 95, 127);
-  border-radius: 14px;
-  width: 155px;
-  text-align: center;
-  margin: 10px;
-  text-decoration: none;
-  margin-left: 110px;
-}
-#name,
-#email,
-#password {
-  width: fit-content;
-  border: 2px solid rgb(110, 46, 93);
-  border-radius: 5px;
-  padding: 2px;
-  margin: 3px;
-}
+  .article1 p {
+    font-size: bold;
 
-.Categories1 {
-  text-align: left;
-  text-decoration: solid;
-  text-transform: capitalize;
-  font-size: 25px;
-  color: rgb(81, 29, 43);
-}
+    font-weight: 1000;
+    color: rgb(241, 147, 192);
+    text-shadow: 1px 1px 0px rgb(39, 19, 28);
+    margin-left: 25px;
+    margin-top: 30px;
+    padding-right: 3px;
+    text-align: auto;
+    text-transform: capitalize;
+    font-style: italic;
+  }
 
-.loginfo img {
-  padding: 10px;
-}
+  .article1 h3 {
+    margin-left: 20px;
+    margin-top: 80px;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
 
-.loginfo2 {
-  font-size: 15px;
-  color: #000;
-  margin: 1px;
-}
 
-.log {
-  color: white;
-  font-size: 20px;
-  display: block;
-  background-color: rgb(137, 87, 147);
-  border-bottom: 4px solid rgb(110, 46, 93);
-  border-top: white;
-  border-right: white;
-  border-left: white;
-  border-radius: 25px;
-  width: 140px;
-  text-align: center;
-  margin: 10px;
-}
+  .contact {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    background-color: rgb(241, 147, 192);
+    border-bottom: 4px solid rgb(218, 95, 127);
+    border-radius: 14px;
+    width: 155px;
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    margin-left: 110px;
+  }
+  #name,
+  #email,
+  #password {
+    width: fit-content;
+    border: 2px solid rgb(110, 46, 93);
+    border-radius: 5px;
+    padding: 2px;
+    margin: 3px;
+  }
+
+  .Categories1 {
+    text-align: left;
+    text-decoration: solid;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: rgb(81, 29, 43);
+  }
+
+  .loginfo img {
+    padding: 10px;
+  }
+
+  .loginfo2 {
+    font-size: 15px;
+    color: #000;
+    margin: 1px;
+  }
+
+  .log {
+    color: white;
+    font-size: 20px;
+    display: block;
+    background-color: rgb(137, 87, 147);
+    border-bottom: 4px solid rgb(110, 46, 93);
+    border-top: white;
+    border-right: white;
+    border-left: white;
+    border-radius: 25px;
+    width: 140px;
+    text-align: center;
+    margin: 10px;
+  }
