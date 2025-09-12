@@ -85,7 +85,7 @@
   }
 
   .article1 {
-    background-image: url('../Make-Up images/back.jpeg');
+    /* background-image: url('../Make-Up images/back.jpeg'); */
     width: 400px;
     background-size: cover;
     border-color: rgb(246, 239, 239);
