@@ -17,26 +17,27 @@
 // let isVallied = nameRegex.test(userName);
 
 let form = document.getElementById('form');
-form.onsubmit = function(e) {
-    e.preventDefault();
- let userName = document.getElementById('name').value.trim();
-    let nameRegex = /^[a-zA-Z]+(?:\s[a-zA-Z]+)*$/i;
-    if(!nameRegex.test(userName)) {
-        alert(' Wrong name!');
-        return;  }
+form.onsubmit = function (e) {
+  e.preventDefault();
+  let userName = document.getElementById('name').value.trim();
+  let nameRegex = /^[a-zA-Z]+(?:\s[a-zA-Z]+)*$/i;
+  if (!nameRegex.test(userName)) {
+    alert(' Wrong name!');
+    return;
+  }
 
-      let userEmail = document.getElementById('email').value.trim();
-    let emailRegex = /^[\w.-]+@[a-zA-Z]+\.(com|org|net)$/i;
-    if(!emailRegex.test(userEmail)) {
-        alert(' Wrong email!');
-        return;
-    }
-     let userPassword = document.getElementById('password').value;
-    let passwordRegex = /^(?=.*[a-zA-Z])(?=.*\d)(?=.*[\W_]).{6,}$/;
-    if(!passwordRegex.test(userPassword)) {
-        alert(' Weak password!');
-        return;
-    }
-      alert(' All inputs are valid!');
-    form.submit(); 
+  let userEmail = document.getElementById('email').value.trim();
+  let emailRegex = /^[\w.-]+@[a-zA-Z]+\.(com|org|net)$/i;
+  if (!emailRegex.test(userEmail)) {
+    alert(' Wrong email!');
+    return;
+  }
+  let userPassword = document.getElementById('password').value;
+  let passwordRegex = /^(?=.*[a-zA-Z])(?=.*\d)(?=.*[\W_]).{6,}$/;
+  if (!passwordRegex.test(userPassword)) {
+    alert(' Weak password!');
+    return;
+  }
+  alert(' All inputs are valid!');
+  form.submit();
 };
