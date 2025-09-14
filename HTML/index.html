@@ -107,7 +107,7 @@
         </p>
       </div>
       <aside>
-        <form action="#" method="post">
+        <form action="#" method="get" id="form">
           <div class="loginfo1">
             <img
               src="../Make-Up images/log in (1).jpeg"
@@ -123,8 +123,10 @@
               type="text"
               id="name"
               name="name"
-              required
-              placeholder="Enter your name"
+               
+              placeholder="User Name"
+              minlength="3"
+              maxlength="20"
             />
           </div>
           <div>
@@ -133,8 +135,8 @@
               type="email"
               id="email"
               name="email"
-              required
-              placeholder="Enter your email"
+            
+              placeholder="user_name@gmail.com"
             />
           </div>
           <div>
@@ -143,8 +145,9 @@
               type="password"
               id="password"
               name="password"
-              required
+              
               placeholder="Enter your password"
+              minlength="8"
             />
           </div>
           <br />
